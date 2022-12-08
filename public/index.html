@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="m-8 md:m-12 lg:m-20 font-myFont ">
+        <div class="bg-white text-black absolute top-0 right-0 z-10 hidden p-4 h-full w-1/2 md:1/4" id="mob-nav">
+            <img src="../assets/images/icon-menu-close.svg" alt="menu close" id="close" class=" cursor-pointer absolute top-0 right-0 p-4">
+            <ul class="mt-20">
+                <li class=" my-4 cursor-pointer hover:text-softred">Home</li>
+                <li class=" my-4 cursor-pointer hover:text-softred">New</li>
+                <li class=" my-4 cursor-pointer hover:text-softred">Popular</li>
+                <li class=" my-4 cursor-pointer hover:text-softred">Trending</li>
+                <li class=" my-4 cursor-pointer hover:text-softred">Categories</li>
+            </ul> 
+        </div>
+        <nav class="flex items-center justify-between relative">
+            <div>
+                <img src="../assets/images/logo.svg" alt="logo">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+            </div>
+            <div class="transition-all delay-50 ease-in">
+                <ul class="hidden lg:block">
+                    <li class="inline-block mx-2 cursor-pointer hover:text-softred">Home</li>
+                    <li class="inline-block mx-2 cursor-pointer hover:text-softred">New</li>
+                    <li class="inline-block mx-2 cursor-pointer hover:text-softred">Popular</li>
+                    <li class="inline-block mx-2 cursor-pointer hover:text-softred">Trending</li>
+                    <li class="inline-block mx-2 cursor-pointer hover:text-softred">Categories</li>
+                </ul>
+                <img src="../assets/images/icon-menu.svg" class="cursor-pointer hover:scale-75 lg:hidden" id="menu-btn">
+            </div>
+        </nav>
+        <div class="flex justify-between mt-8 flex-col lg:flex-row">
+            <div class="flex flex-col justify-center">
+                <div class="one">
+                    <img src="../assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop" class="hidden md:block">
+                    <img src="../assets/images/image-web-3-mobile.jpg" alt="image-web-3-desktop" class="block md:hidden">
+                </div>
+                <div class="flex justify-between my-4 items-center flex-col md:flex-row">
+                    <h2 class="text-4xl font-extrabold text-Verydarkblue font-myFont mr-6 lg:mr-12">The Bright Future of Web 3.0?</h2>
+                    <div >
+                        <p class="text-Darkgrayishblue">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                        But is it really fulfilling its promise?</p>
+                        <button class="bg-softred uppercase px-4 py-2 mt-4 font-semibold text-white hover:bg-Verydarkblue">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="bg-Verydarkblue h-full lg:ml-4 p-8">
+                  <h2 class="text-softorange text-3xl my-6 font-bold">New</h2>
+                  <div class=" my-4 border-b-gray-300">
+                      <p class="text-white font-bold text-lg hover:text-softorange">Hydrogen VS Electric Cars</p>
+                      <p class="text-grayishblue text-md">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                  </div>  
+                  <hr>
+                  <div class=" my-4 border-b-gray-300">
+                      <p class="text-white font-bold text-lg hover:text-softorange">The Downsides of AI Artistry</p>
+                      <p class="text-grayishblue text-md">What are the possible adverse effects of on-demand AI image generation?</p>
+                  </div>
+                  <hr>
+                  <div class="my-4">
+                      <p class="text-white font-bold text-lg hover:text-softorange">Is VC Funding Drying Up?</p>
+                      <p class="text-grayishblue text-md">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                  </div>
+            </div>
+        </div>
+    </div>
+        <div class="flex flex-col lg:flex-row mt-12">
+            <div class="flex items-center">
+                <div class="lg:max-w-xs w-48 h-auto lg:mr-6">
+                    <img src="../assets/images/image-retro-pcs.jpg" alt="retro pc" >
+                </div>
+                <div class="ml-4">
+                    <h1 class="font-extrabold text-Darkgrayishblue text-2xl md:text-3xl">01</h1>
+                    <h3 class="text-Verydarkblue my-2 md:my-4 font-bold text-lg hover:text-softred">Reviving Retro PCs</h3>
+                    <p class="text-Darkgrayishblue text-md">What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </div>
+            <div class="flex items-center my-6 lg:my-0">
+                <div class="lg:max-w-xs w-48 h-auto lg:mr-6">
+                    <img src="../assets/images/image-top-laptops.jpg" alt="retro pc" >
+                </div>
+                <div class="ml-4">
+                    <h1 class="font-extrabold text-Darkgrayishblue text-2xl md:text-3xl">02</h1>
+                    <h3 class="text-Verydarkblue my-2 md:my-4 font-bold text-lg hover:text-softred">Top 10 Laptops of 2022</h3>
+                    <p class="text-Darkgrayishblue text-md" >Our best picks for various needs and budgets.</p>
+                </div>
+            </div>
+            <div class="flex items-center">
+                <div class="lg:max-w-xs w-48 h-auto lg:mr-6">
+                    <img src="../assets/images/image-gaming-growth.jpg" alt="retro pc" >
+                </div>
+                <div class="ml-4">
+                    <h1 class="font-extrabold text-Darkgrayishblue text-2xl md:text-3xl">03</h1>
+                    <h3 class="text-Verydarkblue my-2 md:my-4 font-bold text-lg hover:text-softred">The Growth of Gaming </h3>
+                    <p class="text-Darkgrayishblue text-md">How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
